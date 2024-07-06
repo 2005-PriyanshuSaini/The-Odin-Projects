@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1rem;
+}
+
+header .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800; /* Extra-Bold */
+    color: #F9FAF8;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 1rem;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: #333;
+    padding: 2rem;
+    text-align: center;
+    color: #aaa;
+}
+
+.random-info {
+    text-align: center;
+    padding: 2rem;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    font-weight: 800; /* Extra-Bold */
+    color: #1F2937;
+    margin-bottom: 1rem;
+}
+
+.random-info .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.random-info .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300; /* Light Italic */
+    color: #1F2937;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 2rem;
+    background-color: #3882F6;
+    color: white;
+}
+
+.call-to-action button {
+    background-color: white;
+    color: #3882F6;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
